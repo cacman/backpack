@@ -1,14 +1,14 @@
-.controller.custom {
+.controller.xbox {
     background: url(https://imgur.com/eWlI7VE.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
-.custom.disconnected {
+.xbox.disconnected {
     background: url(https://imgur.com/1i0fvvM.png);
 }
 
-.switch.disconnected div {
+.xbox.disconnected div {
     display: none;
 }
