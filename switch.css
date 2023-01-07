@@ -1,20 +1,20 @@
 /*Switch Pro Controller Styling*/
-.controller.switch{											   
+.controller.custom{											   
     background: url(https://imgur.com/eWlI7VE.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
-.switch.disconnected {
+.custom.disconnected {
     background: url(https://imgur.com/1i0fvvM.png);
 }
 
-.switch.disconnected div {
+.custom.disconnected div {
     display: none;
 }
 
-.switch .triggers {
+.custom .triggers {
     width: 427px;
     height: 121px;
     position: absolute;
@@ -22,32 +22,32 @@
     top: -8px;
 }
 
-.switch .trigger {
+.custom .trigger {
     width: 88px;
     height: 121px;
     background: url(https://imgur.com/yB8ABy5.png);
     opacity: 0;
 }
 
-.switch .trigger.left {
+.custom .trigger.left {
     float: left;
     background-position: 0 0;
 }
 
-.switch .trigger.right {
+.custom .trigger.right {
     float: right;
     left: 8px;
     transform: rotateY(180deg);
 }
 
-.switch .bumper {
+.custom .bumper {
     width: 170px;
     height: 61px;
     background: url(https://imgur.com/lr9lHUc.png);
     opacity: 0;
 }
 
-.switch .bumpers {
+.custom .bumpers {
     position: absolute;
     width: 528px;
     height: 61px;
@@ -55,21 +55,21 @@
     top: 113px;
 }
 
-.switch .bumper.pressed {
+.custom .bumper.pressed {
     opacity: 1;
 }
 
-.switch .bumper.left {
+.custom .bumper.left {
     float: left;
 }
 
-.switch .bumper.right {
+.custom .bumper.right {
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
-.switch .quadrant {
+.custom .quadrant {
     position: absolute;
     background: url(https://imgur.com/FXlOX0L.png);
     height: 45px;
@@ -79,27 +79,27 @@
     z-index: 0;
 }
 
-.switch .p0 {
+.custom .p0 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 
-.switch .p1 {
+.custom .p1 {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
-.switch .p2 {
+.custom .p2 {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
 
-.switch .p3 {
+.custom .p3 {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
-.switch .arrows {
+.custom .arrows {
     position: absolute;
     width: 197px;
     height: 33px;
@@ -107,27 +107,27 @@
     left: 275px;
 }
 
-.switch .back, .switch .start {
+.custom .back, .custom .start {
     background: url(https://imgur.com/Hll1mMq.png);
     width: 33px;
     height: 33px;
     opacity: 0;
 }
 
-.switch .back.pressed, .switch .start.pressed {
+.custom .back.pressed, .custom .start.pressed {
     opacity: 1;
 }
 
-.switch .back {
+.custom .back {
     float: left;
 }
 
-.switch .start {
+.custom .start {
     background-position: 33px 0px;
     float: right;
 }
 
-.switch .abxy {
+.custom .abxy {
     position: absolute;
     width: 153px;
     height: 150px;
@@ -135,44 +135,44 @@
     left: 488px;
 }
 
-.switch .button {
+.custom .button {
     position: absolute;
     background: url(https://imgur.com/zY5rOdT.png);
     width: 48px;
     height: 48px;
 }
 
-.switch .button.pressed {
+.custom .button.pressed {
     background-position-y: -48px;
     margin-top: 0px;
     opacity: 1;
 }
 
-.switch .a {
+.custom .a {
     background-position: -49px 0;
     top: 80px;
     left: 37px;
 }
 
-.switch .b {
+.custom .b {
     background-position: 0 0;
     top: 36px;
     right: 15px;
 }
 
-.switch .x {
+.custom .x {
     background-position: 48px 0;
     top: 36px;
     left: -15px;
 }
 
-.switch .y {
+.custom .y {
     background-position: -98px 0;
     left: 37px;
     top: -9px;
 }
 
-.switch .sticks {
+.custom .sticks {
     position: absolute;
     width: 350px;
     height: 196px;
@@ -180,7 +180,7 @@
     left: 149px;
 }
 
-.switch .stick {
+.custom .stick {
     position: absolute;
     background: url(https://imgur.com/rrnq6J4.png);
     background-position: -85px 0;
@@ -188,21 +188,21 @@
     width: 84px;
 }
 
-.switch .stick.pressed {
+.custom .stick.pressed {
     background-position: 0 0;
 }
 
-.switch .stick.left {
+.custom .stick.left {
     top: -200;
     left: 4;
 }
 
-.switch .stick.right {
+.custom .stick.right {
     top: 91px;
     left: 270px;
 }
 
-.switch .dpad {
+.custom .dpad {
     position: absolute;
     width: 110px;
     height: 111px;
@@ -210,39 +210,39 @@
     left: 218px;
 }
 
-.switch .face {
+.custom .face {
     background: url(https://imgur.com/d7TZKtY.png);
     position: absolute;
     opacity: 0;
 }
 
-.switch .face.pressed {
+.custom .face.pressed {
     opacity: 1;
 }
 
-.switch .face.up, .switch .face.down{
+.custom .face.up, .custom .face.down{
     width: 38px;
     height: 52px;
 }
-.switch .face.left, .switch .face.right{
+.custom .face.left, .custom .face.right{
     width: 52px;
     height: 38px;
 }
-.switch .face.up {
+.custom .face.up {
     background-position: 34px 0;
     left: 38px;
     top: 0px;
     width: 34px;
     height: 56px;
 }
-.switch .face.down {
+.custom .face.down {
     left: 37px;
     bottom: -1px;
     width: 34px;
     height: 56px;
 }
 
-.switch .face.left {
+.custom .face.left {
     background-position: 0 -93px;
     width: 55px;
     height: 35px;
@@ -250,24 +250,24 @@
     left: -1px;
 }
 
-.switch .face.right {
+.custom .face.right {
     background-position: 0 -57px;
     width: 55px;
     height: 35px;
     top: 38px;
     right: 0;
 }
-.switch .face.pressed{
+.custom .face.pressed{
     margin-top: 5px;
     background-position-y: 52px;
 }
 
-.switch.half {
+.custom.half {
     margin-top: -315px;
 }
 
-.switch {
+.custom {
     background: no-repeat center;
 }
 
-/*END PS3 Controller Styling*/
+/*END Switch Pro Controller Styling*/
