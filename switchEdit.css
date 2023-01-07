@@ -1,11 +1,11 @@
-.controller.switch{											   
+.controller.custom {
     background: url(https://imgur.com/eWlI7VE.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
-.switch.disconnected {
+.custom.disconnected {
     background: url(https://imgur.com/1i0fvvM.png);
 }
 
